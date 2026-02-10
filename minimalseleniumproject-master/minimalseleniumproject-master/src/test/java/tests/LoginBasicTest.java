@@ -38,7 +38,7 @@ public class LoginBasicTest {
 
 	@Test
 	public void login() {
-		System.out.println("0. Start");
+		System.out.println("0. Start this is the change");
 		
 		System.out.println("1. Open target page");
 		driver.get("https://www.saucedemo.com/");
