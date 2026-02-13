@@ -51,7 +51,7 @@ public class LoginBasicTest {
 		driver.findElement(By.cssSelector("*[data-test=\"username\"]")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"username\"]")).sendKeys("standard_user");
 		
-		System.out.println(" 2.1 Insert password");
+		System.out.println(" 2.1 Insert password and test case as well okay");
 		driver.findElement(By.cssSelector(".login_password")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"password\"]")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"password\"]")).sendKeys("secret_sauce");
