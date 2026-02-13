@@ -46,7 +46,7 @@ public class LoginBasicTest {
 		
 		System.out.println("2. Insert username and password");
 		
-		System.out.println(" 2.1 Insert username");
+		System.out.println(" 2.1 Insert username this is my Test Case");
 		driver.findElement(By.id("login_credentials")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"username\"]")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"username\"]")).sendKeys("standard_user");
