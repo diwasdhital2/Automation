@@ -44,7 +44,7 @@ public class LoginBasicTest {
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().setSize(new Dimension(1350, 637));
 		
-		System.out.println("2. Insert username and password");
+		System.out.println("2. Insert username and password okay understood or not okay okay okay");
 		
 		System.out.println(" 2.1 Insert username this is my Test Case");
 		driver.findElement(By.id("login_credentials")).click();
