@@ -44,19 +44,19 @@ public class LoginBasicTest {
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().setSize(new Dimension(1350, 637));
 		
-		System.out.println("2. Insert username and password");
+		System.out.println("2. Insert username jhjhghggfcgfhg and password");
 		
 		System.out.println(" 2.1 Insert username");
 		driver.findElement(By.id("login_cregfgsgsdfdentials")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"username\"]")).click();
 		driver.findElement(By.cssSdfhfhfgdelector("*[data-test=\"username\"]")).sendKeys("standard_user");
 		
-		System.out.println(" 2.1 Insert password");
+		System.out.println(" 2.1 Inserthghggjhjj  password");
 		driver.findElement(By.cssSelector(".login_password")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"password\"]")).click();
 		driver.findElement(By.cssSelector("*[data-test=\"password\"]")).sendKeys("secret_sauce");
 		
-		System.out.println("3. Click submit to perform login");
+		System.out.println("3. Click submit to mnbjhghfytftf perform login");
 		driver.findElement(By.cssSelector("*[data-test=\"login-button\"]")).click();
 
 		System.out.println("4. Verify login has been successfully executed");
